@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booker.id - Share Your Book Opinions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="hero-section">
+      <div class="video-container">
+        <video autoplay muted loop playsinline class="video-bg">
+          <source src="broll-background.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="video-overlay"></div>
+
+      <div class="container hero-container">
+        <!-- Header/Navigation -->
+        <header>
+          <nav>
+            <a href="#" class="logo"
+              ><span class="logo-highlight">Booker</span>.id</a
+            >
+            <ul class="nav-links">
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Category</a></li>
+              <li><a href="#">Article</a></li>
+              <li><a href="#">About Us</a></li>
+            </ul>
+            <div class="nav-actions">
+              <a href="#" class="sign-in-btn">Sign In</a>
+              <a href="#" class="sign-up-btn">Sign Up</a>
+            </div>
+            <button class="menu-toggle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="28"
+                height="28"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+              </svg>
+            </button>
+          </nav>
+        </header>
+
+        <!-- Hero Content -->
+        <main>
+          <div class="hero-text">
+            <h1>
+              <span>Discover Your Next</span>
+              <span class="hero-highlight">Great Read</span>
+            </h1>
+            <p>
+              Share your opinions and find books recommended by a community of
+              readers like you.
+            </p>
+          </div>
+
+          <!-- Search Form -->
+          <form class="search-form">
+            <div class="search-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </div>
+            <input
+              type="search"
+              placeholder="Search for books, authors, or genres..."
+              class="search-input"
+            />
+            <button type="submit" class="search-button">
+              <span>Search</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </form>
+        </main>
+
+        <!-- Explore More Button -->
+        <div class="explore-more">
+          <span>Explore More</span>
+          <div class="explore-icon-container">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <polyline points="19 12 12 19 5 12"></polyline>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quote Section -->
+    <section class="quote-section">
+      <div class="container quote-container">
+        <div class="quote-text-wrapper">
+          <blockquote>
+            “If you don't like to read, you haven't found the right book.”
+          </blockquote>
+          <cite>- J.K. Rowling</cite>
+        </div>
+      </div>
+    </section>
+
+    <!-- Articles Section -->
+    <section class="articles-section">
+      <div class="container">
+        <h2>Latest Articles</h2>
+        <div class="articles-grid">
+          <!-- Article Card 1 -->
+          <div class="article-card">
+            <img
+              src="TheMidnightLibrary.jpeg"
+              alt="Book cover for The Midnight Library"
+              class="article-image"
+            />
+            <div class="article-content">
+              <span class="article-category">Fiction</span>
+              <h3>The Midnight Library</h3>
+              <p>
+                A dazzling novel about all the choices that go into a life well
+                lived. Somewhere out beyond the edge of the universe there is a
+                library that contains an infinite number of books...
+              </p>
+              <div class="article-meta">
+                <span>By Matt Haig</span>
+                <span>Oct 5, 2021</span>
+              </div>
+              <a href="#" class="read-more">Read More</a>
+            </div>
+          </div>
+          <!-- Article Card 2 -->
+          <div class="article-card">
+            <img
+              src="TheAtomicHabits.jpeg"
+              alt="Book cover for Atomic Habits"
+              class="article-image"
+            />
+            <div class="article-content">
+              <span class="article-category">Self-Help</span>
+              <h3>Atomic Habits</h3>
+              <p>
+                Tiny Changes, Remarkable Results. An easy & proven way to build
+                good habits & break bad ones. No matter your goals, Atomic
+                Habits offers a proven framework for improving--every day.
+              </p>
+              <div class="article-meta">
+                <span>By James Clear</span>
+                <span>Oct 16, 2018</span>
+              </div>
+              <a href="#" class="read-more">Read More</a>
+            </div>
+          </div>
+          <!-- Article Card 3 -->
+          <div class="article-card">
+            <img
+              src="ProjectHailMary.jpeg"
+              alt="Book cover for Project Hail Mary"
+              class="article-image"
+            />
+            <div class="article-content">
+              <span class="article-category">Sci-Fi</span>
+              <h3>Project Hail Mary</h3>
+              <p>
+                A lone astronaut must save the earth from disaster in this
+                incredible new science-based thriller from the #1 New York Times
+                bestselling author of The Martian.
+              </p>
+              <div class="article-meta">
+                <span>By Andy Weir</span>
+                <span>May 4, 2021</span>
+              </div>
+              <a href="#" class="read-more">Read More</a>
+            </div>
+          </div>
+          <!-- Article Card 4 -->
+          <div class="article-card">
+            <img
+              src="Educated-A-Memoir.jpeg"
+              alt="Book cover for Educated: A Memoir"
+              class="article-image"
+            />
+            <div class="article-content">
+              <span class="article-category">Memoir</span>
+              <h3>Educated: A Memoir</h3>
+              <p>
+                An unforgettable memoir about a young girl who, kept out of
+                school, leaves her survivalist family and goes on to earn a PhD
+                from Cambridge University.
+              </p>
+              <div class="article-meta">
+                <span>By Tara Westover</span>
+                <span>Feb 20, 2018</span>
+              </div>
+              <a href="#" class="read-more">Read More</a>
+            </div>
+          </div>
+          <!-- Article Card 5 -->
+          <div class="article-card">
+            <img
+              src="TheNameofTHeWind.jpeg"
+              alt="Placeholder book cover"
+              class="article-image"
+            />
+            <div class="article-content">
+              <span class="article-category">Fantasy</span>
+              <h3>The Name of the Wind</h3>
+              <p>
+                The tale of Kvothe, from his childhood in a troupe of traveling
+                players, to his years spent as an orphan in a crime-ridden city,
+                to his daring bid to enter a legendary school of magic.
+              </p>
+              <div class="article-meta">
+                <span>By Patrick Rothfuss</span>
+                <span>Mar 27, 2007</span>
+              </div>
+              <a href="#" class="read-more">Read More</a>
+            </div>
+          </div>
+          <!-- Article Card 6 -->
+          <div class="article-card">
+            <img
+              src="TheSilentPatient.jpeg"
+              alt="Placeholder book cover"
+              class="article-image"
+            />
+            <div class="article-content">
+              <span class="article-category">Thriller</span>
+              <h3>The Silent Patient</h3>
+              <p>
+                A shocking psychological thriller of a woman’s act of violence
+                against her husband—and of the therapist obsessed with
+                uncovering her motive.
+              </p>
+              <div class="article-meta">
+                <span>By Alex Michaelides</span>
+                <span>Feb 5, 2019</span>
+              </div>
+              <a href="#" class="read-more">Read More</a>
+            </div>
+          </div>
+          <!-- Article Card 7 -->
+          <div class="article-card">
+            <img
+              src="Sapiens.png"
+              alt="Placeholder book cover"
+              class="article-image"
+            />
+            <div class="article-content">
+              <span class="article-category">History</span>
+              <h3>Sapiens: A Brief History</h3>
+              <p>
+                A groundbreaking narrative of humanity’s creation and
+                evolution—a #1 international bestseller that explores the ways
+                in which biology and history have defined us.
+              </p>
+              <div class="article-meta">
+                <span>By Yuval Noah Harari</span>
+                <span>Feb 10, 2015</span>
+              </div>
+              <a href="#" class="read-more">Read More</a>
+            </div>
+          </div>
+          <!-- Article Card 8 -->
+          <div class="article-card">
+            <img
+              src="Dystopia.jpeg"
+              alt="Placeholder book cover"
+              class="article-image"
+            />
+            <div class="article-content">
+              <span class="article-category">Dystopian</span>
+              <h3>Klara and the Sun</h3>
+              <p>
+                A magnificent novel from the Nobel laureate Kazuo Ishiguro—an
+                exploration of love, humanity, and our place in the world, as
+                seen through the eyes of an unforgettable narrator.
+              </p>
+              <div class="article-meta">
+                <span>By Kazuo Ishiguro</span>
+                <span>Mar 2, 2021</span>
+              </div>
+              <a href="#" class="read-more">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="show-more-container">
+          <a href="#" class="show-more-btn">Show More</a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
